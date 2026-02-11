@@ -6,9 +6,11 @@
 // import Toggle from "./components/morePracticals 1/toggleButton"
 // import Object from './components/morePracticals 1/objectState'
 // import List from "./components/morePracticals 1/arrayListing"
-import ListingArrayofObject from './components/morePracticals 1/listingArrayOfObject'
+// import ListingArrayofObject from './components/morePracticals 1/listingArrayOfObject'
 // import Header from "./components/morePracticals 1/header"
 // import Counter from "./components/morePracticals 1/counter"
+// import PropDrilling from './components/morePracticals 1/propDrilling/TopParent'
+import PropLifting from './components/morePracticals 1/propLifting/parent'
 function App(){
   // let data='Risvana'
   return(
@@ -21,10 +23,12 @@ function App(){
     {/* <Toggle/>, */}
     {/* <Object/>, */}
     {/* <List/> */}
-    <ListingArrayofObject/>
+    {/* <ListingArrayofObject/> */}
     {/* <Header data={data} />
     <p>this is a sample {data}</p> */}
   {/* <Counter/> */}
+  {/* <PropDrilling/> */}
+  <PropLifting/>
     </>
   )
 }
