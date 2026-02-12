@@ -10,7 +10,8 @@
 // import Header from "./components/morePracticals 1/header"
 // import Counter from "./components/morePracticals 1/counter"
 // import PropDrilling from './components/morePracticals 1/propDrilling/TopParent'
-import PropLifting from './components/morePracticals 1/propLifting/parent'
+// import PropLifting from './components/morePracticals 1/propLifting/parent'
+import DomElements from './components/morePracticals 1/useRef/accessDomElem'
 function App(){
   // let data='Risvana'
   return(
@@ -28,7 +29,8 @@ function App(){
     <p>this is a sample {data}</p> */}
   {/* <Counter/> */}
   {/* <PropDrilling/> */}
-  <PropLifting/>
+  {/* <PropLifting/> */}
+  <DomElements/>
     </>
   )
 }
